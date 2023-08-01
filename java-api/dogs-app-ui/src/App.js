@@ -1,15 +1,12 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import DogDetail from './DogDetail';
+import AllDogs from './componets/AllDogs';
+
 
 function App() {
   return (
 
-    <div>
-      <p id="blue-alias">ID:1</p>
-      <p className="green-class">Name: WongWong</p>
-      <p className="green-class">Age: 3</p>
-      <p className="green-class">OwnerName: Bruce</p>
-    </div>
+    <AllDogs />
   );
 }
 
